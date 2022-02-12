@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#00000080, transparent), url(image/sun.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-box{
+    background: linear-gradient(rgb(0, 0, 0), transparent), url(image/gradientdark.jpg);
+    background-size: cover;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.inner-box, .text-input{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+form .inner-box .text-input{
+    width: calc(50% / 1 - 10px);
+}
+
+.inner-box .text-input input{
+    height: 45px;
+    width: 100%;
+}
+
+.text-input input{
+    text-decoration: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 20px;
+}
+
+.text, span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.text-input input:focus, 
+.text-input input:valid{
+    border-color:rgb(0, 255, 17);
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid white; 
+}
+
+.login-box{
+    display: grid;
+    place-content: center;
+}
+
+.login input{
+    padding: 10px 80px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: rgb(213, 0, 0);
+    border: none;
+    transition: 0.8s;
+}
+
+.login input:hover{
+    background: darkred;
+    color: darkgray;
+}
+
