@@ -38,15 +38,19 @@ form .inner-box .text-input {
 }
 
 .inner-box .text-input input {
-  height: 45px;
+  height: 50px;
+  padding: 10px 20px;
   width: 100%;
+  
 }
 
 .text-input input {
   text-decoration: none;
   border-radius: 3px;
+  margin: 15px;
+  align-content: space-between;
   outline: none;
-  padding: 20px;
+  padding: 10px;
 }
 
 .text,
