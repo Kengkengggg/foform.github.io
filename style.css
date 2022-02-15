@@ -96,8 +96,8 @@ span {
 @media screen and (max-width: 480px) {
   .main-box {
     background: rgb(0, 0, 0, 0.4);
-    padding: 30px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: grid;
     place-content: center;
   }
@@ -113,7 +113,7 @@ span {
 
   .text {
     margin-left: 25px;
-    font-size: 11px;
+    font-size: 3px;
   }
 
   .text-input input {
@@ -128,7 +128,7 @@ span {
   }
 
   .header {
-    font-size: 15px;
+    font-size: 30px;
     color: rgb(194, 15, 15);
   }
 
