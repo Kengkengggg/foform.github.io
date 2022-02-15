@@ -38,16 +38,14 @@ form .inner-box .text-input {
 }
 
 .inner-box .text-input input {
-  height: 50px;
-  padding: 10px 20px;
+  height: 40px;
+  padding: 10px 10px;
   width: 100%;
-  
 }
 
 .text-input input {
   text-decoration: none;
   border-radius: 3px;
-  margin: 15px;
   align-content: space-between;
   outline: none;
   padding: 10px;
@@ -109,6 +107,10 @@ span {
     padding: 3px;
   }
 
+  .inner-box .text-input input {
+    width: 140%;
+  }
+
   .text {
     margin-left: 25px;
     font-size: 11px;
@@ -126,7 +128,7 @@ span {
   }
 
   .header {
-    font-size: 30px;
+    font-size: 15px;
     color: rgb(194, 15, 15);
   }
 
